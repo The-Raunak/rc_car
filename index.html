@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css"> -->
+<!-- ===================================================================== -->
+<style>      
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+
+body { 
+    text-align: center; 
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Ceviche One', cursive;
+    font-size: 30px;
+    background-color: gainsboro;
+}
+.top{
+  position: absolute;
+  bottom: 75%;
+  left: 35%;
+}
+#img {
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  height: 15vh;
+  width: 15vh;
+}
+.button11 {
+    position: absolute;
+    left: 11%;
+    top: 35%;
+  padding: 15px 12px;
+  font-size: 25px;
+  font-family: 'Ceviche One', cursive;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #2f4468;
+  border: none;
+  border-radius: 5px;
+ box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+
+.button12 {
+    position: absolute;
+    left: 38%;
+    top: 28%;
+  padding: 15px 12px;
+  font-size: 25px;
+  font-family: 'Ceviche One', cursive;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #2f4468;
+  border: none;
+  border-radius: 5px;
+ box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+
+.button13 {
+    position: absolute;
+    left: 65%;
+    top: 35%;
+  padding: 15px 12px;
+  font-size: 25px;
+  font-family: 'Ceviche One', cursive;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #2f4468;
+  border: none;
+  border-radius: 5px;
+ box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button2 {
+  position: absolute;
+  left: 65%;
+  top: 48%;
+padding: 15px 15px;
+font-size: 30px;
+font-family: 'Ceviche One', cursive;
+text-align: center;
+outline: none;
+color: #fff;
+background-color: #2f4468;
+border: none;
+border-radius: 5px;
+box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button4 {
+  position: absolute;
+  left: 38%;
+  top: 60%;
+padding: 15px 25px 15px 25px;
+font-size: 30px;
+font-family: 'Ceviche One', cursive;
+text-align: center;
+outline: none;
+color: #fff;
+background-color: #2f4468;
+border: none;
+border-radius: 5px;
+box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+
+.button3 {
+  position: absolute;
+  left: 11%;
+  top: 48%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button5 {
+  position: absolute;
+  left: 81%;
+  top: 71%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button6 {
+  position: absolute;
+  left: 81%;
+  top: 42%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button7 {
+  position: absolute;
+  left: 9%;
+  top: 42%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button8 {
+  position: absolute;
+  left: 8%;
+  top: 71%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+
+.button11:hover {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button11:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button12:hover {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button12:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button13:hover {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button13:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button2:hover {   
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button2:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button3:hover {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button3:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button4:hover {
+    background-color: red;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button4:active {
+    background-color: red;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button5:hover {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button5:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button6:hover {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button6:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button7:hover {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button7:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+.button8:hover {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(235, 72, 72);
+}
+.button8:active {
+    background-color: #1f2e45;
+    box-shadow: 1px 1px 10px  rgb(136, 246, 46);
+  transform: translateY(2px);
+}
+    </style>
+
+    <!--====================================================================-->
+    <style>
+      @media  screen and (max-width: 927px){
+
+body{
+    padding-top: 0px;
+}
+.top{
+  position: absolute;
+  bottom: 70%;
+  left: 35%;
+}
+    #img {
+        position: absolute;
+        top: 0%;
+        left: 3%;
+          height: 35vh;
+          width: 35vh;
+      }
+
+.button11 {
+  position: absolute;
+  left: 21%;
+  top: 35%;
+padding: 15px 12px;
+font-size: 25px;
+font-family: 'Ceviche One', cursive;
+text-align: center;
+outline: none;
+color: #fff;
+background-color: #2f4468;
+border: none;
+border-radius: 5px;
+box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+
+.button12 {
+  position: absolute;
+  left: 44%;
+  top: 25%;
+padding: 15px 12px;
+font-size: 25px;
+font-family: 'Ceviche One', cursive;
+text-align: center;
+outline: none;
+color: #fff;
+background-color: #2f4468;
+border: none;
+border-radius: 5px;
+box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+
+.button13 {
+  position: absolute;
+  left: 65%;
+  top: 35%;
+padding: 15px 12px;
+font-size: 25px;
+font-family: 'Ceviche One', cursive;
+text-align: center;
+outline: none;
+color: #fff;
+background-color: #2f4468;
+border: none;
+border-radius: 5px;
+box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+
+.button2 {
+        position: absolute;
+        left: 65%;
+        top: 58%;
+      padding: 15px 15px;
+      font-size: 30px;
+    font-family: 'Ceviche One', cursive;
+      text-align: center;
+      outline: none;
+      color: #fff;
+      background-color: #2f4468;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }  
+    .button3 {
+    position: absolute;
+    left: 21%;
+    top: 58%;
+      padding: 15px 20px;
+      font-size: 30px;
+    font-family: 'Ceviche One', cursive;
+      text-align: center;
+      outline: none;
+      color: #fff;
+      background-color: #2f4468;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+
+    .button4 {
+        position: absolute;
+        left: 43%;
+        top: 49%;
+      padding: 15px 25px 15px 27px;
+      font-size: 30px;
+    font-family: 'Ceviche One', cursive;
+      text-align: center;
+      outline: none;
+      color: black;
+      background-color: red;
+      border: none;
+      border-radius: 100px;
+      box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    .button5 {
+  position: absolute;
+  left: 44%;
+  top: 73%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button6 {
+  position: absolute;
+  left: 78%;
+  top: 42%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button7 {
+  position: absolute;
+  left: 9%;
+  top: 42%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  
+.button8 {
+  position: absolute;
+  left: 81%;
+  top: 71%;
+    padding: 15px 20px;
+    font-size: 30px;
+  font-family: 'Ceviche One', cursive;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #2f4468;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px  rgb(8, 181, 255);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}   
+}
+    </style>
+    <!--====================================================================-->
+
+</head>
+<body>
+    <div class="img">
+        <img src="innov8ors-removebg-preview.png" alt="logo" id="img">
+    </div>
+    <div class="top">
+      <h1><u>innov8ors</u></h1>
+    </div>
+    <button class="button11" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">F (200)</button>
+    <button class="button12" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">F (500)</button>
+    <button class="button13" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">F (1000)</button>
+    <button class="button2" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">RIGHT</button>
+    <button class="button3" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">LEFT</button>
+    <button class="button4" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">STOP</button>
+    <button class="button5" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">BACK</button>
+    <button class="button6" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">CW</button>
+    <button class="button7" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">ACW</button>
+    <button class="button8" onmousedown="toggleCheckbox('on');" ontouchstart="toggleCheckbox('on');" onmouseup="toggleCheckbox('off');" ontouchend="toggleCheckbox('off');">LIGHT</button>
+   <script>
+   function toggleCheckbox(x) {
+     var xhr = new XMLHttpRequest();
+     xhr.open("GET", "/" + x, true);
+     xhr.send();
+   }
+  </script>
+  </body>
+</html>
